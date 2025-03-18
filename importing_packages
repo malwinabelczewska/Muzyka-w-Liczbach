@@ -1,0 +1,17 @@
+import matplotlib.cm as cm
+import matplotlib.colors as mcolors
+import pandas as pd
+import plotly.express as px
+import seaborn as sns
+import numpy as np
+import wordcloud as wr
+from re import S
+import matplotlib.pyplot as plt
+from matplotlib.offsetbox import OffsetImage, AnnotationBbox
+from PIL import Image, ImageEnhance
+import os
+from collections import defaultdict
+
+# Resetowanie ustawień matplotlib do domyślnych
+plt.rcdefaults()
+
